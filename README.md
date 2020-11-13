@@ -34,6 +34,10 @@ npm run start
 npm run test
 ```
 
+## References
+
+* https://dev.to/ahmed_mahallawy/tweeting-using-node-js-5986
+
 ## Author
 
 * Website: http://www.rodrigosouza.net.br
