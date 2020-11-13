@@ -49,7 +49,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-This project is [ISC](https://github.com/rsouza01/twitter-cli/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/rsouza01/twitter-cli/blob/master/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
