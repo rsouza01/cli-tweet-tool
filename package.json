@@ -1,5 +1,5 @@
 {
-  "name": "twitterclient",
+  "name": "twitter-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rsouza01/twitterclient.git"
+    "url": "git+https://github.com/rsouza01/twitter-cli.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rsouza01/twitterclient/issues"
+    "url": "https://github.com/rsouza01/twitter-cli/issues"
   },
-  "homepage": "https://github.com/rsouza01/twitterclient#readme",
+  "homepage": "https://github.com/rsouza01/twitter-cli#readme",
   "husky": {
     "hooks": {
       "pre-commit": "npm run prettier:format && npm run lint:run"
