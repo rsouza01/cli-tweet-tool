@@ -1,6 +1,12 @@
-import * as path from 'path';
-import * as dotenv from 'dotenv';
+import Twitter from 'twitter-lite';
 
-dotenv.config({ path: path.join(__dirname, '..', '/.env') });
+import * as config from '../config';
 
-console.log(`  HOST => ${process.env.HOST}`);
+const client = new Twitter(config);
+
+client
+  .post('statuses/update', { status: 'Hello world!' })
+  .then((result) => {
+    console.log(`You successfully tweeted this : ${result.text}`);
+  })
+  .catch(console.error);

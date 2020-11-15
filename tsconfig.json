@@ -20,6 +20,7 @@
         "ESNext"
       ],
       "noImplicitReturns": true,
+      "noImplicitAny": false,
       "noFallthroughCasesInSwitch": true,
       "outDir": "build/",
       "experimentalDecorators": true,
